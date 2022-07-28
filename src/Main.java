@@ -6,7 +6,7 @@ public class Main {
 boolean ShouldContinue = true;
 
 // created by kamileq_14
-        
+
         String a = ("•—");
         String b = ("—•••");
         String c = ("—•—•");
@@ -34,14 +34,16 @@ boolean ShouldContinue = true;
         String y = ("—•——");
         String z = ("——••");
 
+        System.out.println(" ");
+        System.out.println("this is simple translator from english to morse");
+        System.out.println("this translate only one letter per line");
+        System.out.println("if you want to translate letter write it");
+        System.out.println("if you want to stop write [stop]");
+        System.out.println("============================================================");
+
         Scanner scanner = new Scanner(System.in);
         while(ShouldContinue) {
-            System.out.println(" ");
-            System.out.println("this is simple translator from english to morse");
-            System.out.println("this translate only one letter per line");
-            System.out.println("if you want to translate letter write it");
-            System.out.println("if you want to stop write [stop]");
-            System.out.println("============================================================");
+
             String userinput = scanner.next();
 
             if (userinput.equals("a")) {
